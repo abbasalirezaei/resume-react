@@ -10,6 +10,7 @@ import {
   FaTwitter,
 } from "react-icons/fa";
 import profile from "../../../images/profile.jpg";
+import cv from "../../../images/cv.pdf";
 
 const socials = [
   {
@@ -20,37 +21,37 @@ const socials = [
   {
     id: 2,
     icon: <FaGithub />,
-    link: "#0",
+    link: "https://github.com/abbasalirezaei",
   },
   {
     id: 3,
     icon: <FaLinkedinIn />,
-    link: "#0",
+    link: "https://www.linkedin.com/in/abbasalirezaei79/  ",
   },
   {
     id: 4,
     icon: <FaInstagram />,
-    link: "#0",
+    link: "https://www.instagram.com/rezaei_.79/",
   },
-  {
-    id: 5,
-    icon: <FaBehance />,
-    link: "#0",
-  },
-  {
-    id: 6,
-    icon: <FaDribbble />,
-    link: "#0",
-  },
-  {
-    id: 7,
-    icon: <FaSkype />,
-    link: "#0",
-  },
+  // {
+  //   id: 5,
+  //   icon: <FaBehance />,
+  //   link: "#0",
+  // },
+  // {
+  //   id: 6,
+  //   icon: <FaDribbble />,
+  //   link: "#0",
+  // },
+  // {
+  //   id: 7,
+  //   icon: <FaSkype />,
+  //   link: "#0",
+  // },
   {
     id: 7,
     icon: <FaTwitter />,
-    link: "#0",
+    link: "https://twitter.com/rezaei_79",
   },
 ];
 
@@ -69,7 +70,7 @@ const Sidebar = () => {
           </a> */}
         </p>
         <a
-          href="#0"
+          href={cv}
           className="inline-block mb-3 rounded bg-purple-600 text-center border-0 py-2 px-6 text-white leading-7 tracking-wide hover:bg-purple-800"
           download="Resume"
         >
@@ -86,10 +87,9 @@ const Sidebar = () => {
           About Me
         </h3>
         <p className="text-gray-400 text font-light leading-relaxed">
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-          sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
-          rebum. Stet clita kasd gubergren, no sea takimata sanctus.
+        I hold a Bachelor's degree in Computer Science from Isfahan University. My passion for the field of computers, particularly programming, drives my continuous learning and improvement...
+
+        
         </p>
       </div>
     </aside>

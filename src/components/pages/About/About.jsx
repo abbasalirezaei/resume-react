@@ -9,23 +9,26 @@ const About = () => {
           <div className="md:mx-4">
             <h3 className="text-2xl text-gray-800 font-bold mb-4">Who am I?</h3>
             <p className="text-sm text-gray-400 leading-6 mb-3">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab minima
-              amet accusantium provident, dignissimos corporis reprehenderit
-              numquam nobis ex dolore? Maxime veritatis aliquam amet inventore
-              recusandae nulla incidunt tenetur repellat voluptatibus molestias
-              quas deleniti quia vel officia veniam expedita exercitationem
-              modi, maiores saepe ut dolorum. Voluptas optio laudantium pariatur
-              aperiam!
+              I hold a Bachelor's degree in Computer Science from Isfahan University. My passion for the field of computers, particularly programming, drives my continuous learning and improvement. While I am in the early stages of my career and lack professional work experience, I have dedicated myself to comprehensive training and diligent practice. My enthusiasm for learning new concepts is complemented by my ability to quickly grasp and apply them. I am deeply committed to problem-solving and task completion.
+
+            </p>
+
+          </div>
+          <div className="md:mx-4">
+            <h3 className="text-2xl text-gray-800 font-bold mb-4">LANGUAGES</h3>
+            <p className="text-sm text-gray-400 leading-6 mb-3">
+              English
+
             </p>
             <p className="text-sm text-gray-400 leading-6 mb-3">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab minima
-              amet accusantium provident, dignissimos corporis reprehenderit
-              numquam nobis ex dolore? Maxime veritatis aliquam amet inventore
-              recusandae nulla incidunt tenetur repellat voluptatibus molestias
-              quas deleniti quia vel officia veniam expedita exercitationem
-              modi, maiores saepe ut dolorum. Voluptas optio laudantium pariatur
-              aperiam!
+              Deutsch
+
             </p>
+            <p className="text-sm text-gray-400 leading-6 mb-3">
+              Persian
+
+            </p>
+
           </div>
           <Skills />
         </div>

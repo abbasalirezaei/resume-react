@@ -3,44 +3,91 @@ import SkillItem from "./SkillItem";
 
 const skillData = [
   {
-    id: 1,
-    title: "Html, Css, Scss",
-    percentage: "95%",
+    
+    title: "Django",
+    percentage: "85%",
   },
   {
-    id: 2,
+    
+    title: "DRF",
+    percentage: "90%",
+  },
+  
+  {
+    
+    title: "Python",
+    percentage: "85%",
+  },
+  {
+    
+    title: "JAVASCRIPT",
+    percentage: "78%",
+  },
+  {
+    
+    title: "POSTGRESQL",
+    percentage: "70%",
+  },
+  {
+    
+    title: "SQL",
+    percentage: "75%",
+  },
+  {
+    
+    title: "LINUX",
+    percentage: "50%",
+  },
+
+  {
+    
+    title: "Html, Css, Scss",
+    percentage: "80%",
+  },
+  {
+    
     title: "Bootstrap",
     percentage: "98%",
   },
   {
-    id: 3,
+    
     title: "TailwindCSS",
     percentage: "90%",
   },
   {
-    id: 4,
-    title: "Javascript",
-    percentage: "70%",
-  },
-  {
-    id: 5,
+    
     title: "ReactJS",
     percentage: "70%",
   },
   {
-    id: 6,
-    title: "ExpressJS",
-    percentage: "60%",
-  },
-  {
-    id: 7,
+    
     title: "MongoDB",
-    percentage: "50%",
+    percentage: "30%",
   },
   {
-    id: 8,
+    
     title: "Git, Github",
-    percentage: "80%",
+    percentage: "70%",
+  },
+  {
+    
+    title: "TEAM WORK",
+    percentage: "100%",
+  },
+  {
+    
+    title: "RESPONSIBILITY",
+    percentage: "100%",
+  },
+  {
+    
+    title: "SELF-MOTIVATED",
+    percentage: "100%",
+  },
+  {
+    
+    title: "PROBLEM SOLVING",
+    percentage: "100%",
   },
 ];
 
@@ -53,8 +100,8 @@ const Skills = () => {
             <h3 className="text-2xl text-gray-800 font-bold mb-4">Skills</h3>
           </div>
         </div>
-        {skillData.map((skill, id) => (
-          <SkillItem skill={skill} key={id} />
+        {skillData.map((skill, index) => (
+          <SkillItem skill={skill} key={index+1} />
         ))}
       </div>
     </div>
