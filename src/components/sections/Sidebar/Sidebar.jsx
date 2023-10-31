@@ -61,7 +61,7 @@ const Sidebar = () => {
         <img src={profile} alt="shafiqhammad" className="w-full" />
       </div>
       <div className="text-center">
-        <h1 className="text-xl text-gray-800 font-bold mb-1">John Doe</h1>
+        <h1 className="text-xl text-gray-800 font-bold mb-1">Abbasali Rezaei</h1>
         <p className="text-sm text-gray-400 mb-3">
           Frontend Web Developer at
           <a href="#0" className="text-purple-600 pl-1">

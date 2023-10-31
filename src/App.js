@@ -5,7 +5,7 @@ import Sidebar from "./components/sections/Sidebar/Sidebar";
 
 function App() {
   return (
-    <main className="min-h-screen relative bg-gray-50 pb-10">
+    <main className="min-h-screen relative bg-gray-50 pb-10" >
       <ProfileCover />
       <div className="container px-4">
         <div className="flex flex-wrap px-4">
